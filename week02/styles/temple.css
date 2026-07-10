@@ -1,0 +1,51 @@
+main {
+    width: 350px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 30px gray;
+}
+
+section {
+    background-color: gainsboro;
+    padding: 20px;
+    margin-top: 15px;
+    width: 310px;
+    height: auto;
+}
+
+p {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
