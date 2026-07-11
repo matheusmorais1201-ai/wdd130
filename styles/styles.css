@@ -12,10 +12,10 @@ main img {
 }
 
 aside {
-    width: 20rem;
-    margin: 1 ren;
+    width: 320px;
+    margin: 1px;
     border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
+    padding: 2px;
     background-color: #eee;
     color: #333;
     text-align: center;
