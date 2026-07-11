@@ -1,6 +1,6 @@
 main {
     max-width: 840px;
-    min-width: none;
+    min-width: 840px;
 }
 
 main img {
