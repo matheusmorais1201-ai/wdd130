@@ -1,5 +1,6 @@
 :root {
     background: whitesmoke;
+    --padding: 1rem
 }
 
 * {
@@ -56,11 +57,11 @@ nav a {
 
 h1 {
     color: darkslategray;
-    padding: 1rem;
+    padding: var(--padding);
 }
 
 p {
-    padding: 1rem;
+    padding: var(--padding);
     margin-right: 10px;
 }
 
@@ -75,7 +76,7 @@ footer {
 .box {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
-    padding: 1rem;
+    padding: var(--padding);
     background-color: #ddd;
     color: #000;
 }
