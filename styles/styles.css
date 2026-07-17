@@ -20,16 +20,16 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin-left: 10px;
 }
 
 aside {
     width: 20em;
-    margin: 1px;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 2px;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+}
+
+li {
+    margin-left: 15px;
 }
 
 aside img {
@@ -39,8 +39,8 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 425px;
-    left: 88px;
+    top: 505px;
+    left: 85px;
 }
 
 nav {
@@ -52,15 +52,16 @@ nav a {
     color: white;
     display: inline-block;
     padding: 20px;
-
 }
 
 h1 {
     color: darkslategray;
+    padding: 1rem;
 }
 
 p {
-    padding: 0;
+    padding: 1rem;
+    margin-right: 10px;
 }
 
 footer {
