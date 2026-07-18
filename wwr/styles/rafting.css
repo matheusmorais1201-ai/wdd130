@@ -1,5 +1,5 @@
 :root {
-    --primary-color: black;
+    --primary-color: whitesmoke;
     --secondary-color: green;
     --accent1-color: #264353;
     --accent2-color: #e9c46a;
@@ -42,8 +42,16 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: rgba(78, 56, 25, 0.6);
-    color: whitesmoke;
+    background-color: rgba(115, 69, 5, 0.393);
+    color: rgba(240, 236, 204, 0.815);
+}
+
+h2 {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(22, 121, 87, 0.758);
+    color: var(--primary-color);
 }
 
 nav,
@@ -59,7 +67,7 @@ article {
     top: 25rem;
     color: whitesmoke;
     padding: 10px;
-    background-color: rgba(15, 78, 56, 0.5);
+    background-color: rgba(10, 88, 61, 0.562);
 }
 
 nav img {
