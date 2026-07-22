@@ -11,22 +11,25 @@
 
 main {
     max-width: 840px;
-    min-width: 840px;
+    grid-column: 2;
+    margin: 1rem;
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid grey;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin-left: 10px;
+    margin: 20px 15px 10px 25px
 }
 
 aside {
-    width: 20em;
-    text-align: center;
+    width: 16em;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 li {
@@ -34,50 +37,79 @@ li {
 }
 
 aside img {
-    width: 200px;
+    width: 220px;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 aside h2 {
     position: absolute;
-    top: 680px;
-    left: 85px;
+    top: 20px;
+    left: 35px;
 }
 
 nav {
     background-color: darkslategray;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
-    padding: 20px;
     display: block;
-
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: darkslategray;
     padding: var(--padding);
+    border-bottom: 10x;
 }
 
 p {
     padding: var(--padding);
     margin-right: 10px;
+    text-align: left;
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
+}
+
+footer p {
+    padding: var(--padding);
+    margin-right: 10px;
     text-align: center;
+}
+
+footer,
+.grid,
+header {
+    width: 100%;
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 /* Class Selectors */
 
 .box {
+    position: relative;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: var(--padding);
     background-color: #ddd;
     color: #000;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
 }
